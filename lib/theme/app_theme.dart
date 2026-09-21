@@ -16,7 +16,7 @@ import 'package:flutter/material.dart';
 final themeNotifier = ValueNotifier<ThemeMode>(ThemeMode.system);
 
 class AppTheme {
-  AppTheme._(); // not instantiable
+  AppTheme.isDark(); // not instantiable
 
   /// Light theme — used when the device is in light mode.
   static ThemeData get lightTheme {
